@@ -2,7 +2,9 @@
 cls <- function() {
   cat("\014")
 }
-confirmar<-function(){print("correcto")}
+confirmar <- function(){
+  cat("correcto")
+}
 
 
 
